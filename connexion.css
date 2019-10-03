@@ -183,3 +183,86 @@ footer{
 #linkmdp1{
     margin-bottom:15px;
 }
+.inscription{
+    background-color:rgba(69, 36, 100, 0.452);
+    width: 50%;
+    margin:0 auto;
+    text-align:center;
+    font-size:30px;
+    color:white;
+    font-family: 'geosanslightregular';
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+.formulaire{
+    background-color:rgba(255, 255, 255, 0.568);
+    width: 50%;
+    margin:0 auto;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(69, 36, 100);
+    padding-top:25px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+}
+#formulaire2{
+    text-align: center;
+}
+.gpludid{
+    font-family: 'geosanslightregular'; 
+    color: rgb(69, 36, 100);
+    font-weight:bold;
+    font-size:15px;
+}
+.labelform{
+    font-family: 'geosanslightregular'; 
+    color: rgb(69, 36, 100);
+    font-weight:bold;
+    font-size:20px;
+    margin-bottom: 0px;
+    margin-top: 15px;
+    display: block;
+}
+.labelform2{
+    font-family: 'geosanslightregular'; 
+    color: rgb(69, 36, 100);
+    font-size:15px;
+    display: block;
+    margin-top: -10px;
+}
+#login, #mdp, #prenom, #nom, #homme, #femme, #email, #anniversaire, #tel, #études, #hobbies{
+    font-family: 'geosanslightregular'; 
+    color: rgb(69, 36, 100);
+    font-size:15px;
+    width:200px;
+}
+#msg{
+    width:400px;
+    height:150px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+#études{
+    margin-top:15px;
+    margin-bottom:15px;
+    font-weight: bold;
+    font-size:20px;
+    width:300px;
+    height:50px;
+}
+#hobbies{
+    font-weight: bold;
+    font-size:20px;
+    width:300px;
+    height:50px;
+}
+#bouton_contact{
+    font-family: 'geosanslightregular'; 
+    color: rgb(69, 36, 100);
+    font-size:25px;
+    margin-left: 420px;
+}
+#email{
+    margin-top:0px;
+}

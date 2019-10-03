@@ -18,51 +18,57 @@
                     <br>
                     <br>
                 </header>
-        <div>
-        <span>
-            Les champs précédé de * sont obligatoires
+                <br>
+                <br>
+                <div class="inscription">
+                    <span>Inscrivez vous sur notre super site de ouf</span>
+                </div>
+                <br>
+        <div class="formulaire">
+        <span class="gpludid">
+            Les champs précédés de * sont obligatoires
         </span>
-                <form method="post">
-                    <label for="login">*Nom d'utilisateur</label>
+                <form id="formulaire2" method="post">
+                    <label class="labelform" for="login">*Nom d'utilisateur</label>
                     <br>
-                    <label for="login">Doit contenir entre 6 et 18 caractères</label>
+                    <label class="labelform2" for="login">Doit contenir entre 6 et 18 caractères</label>
                     <br>
                     <input type="text" name="login" id="login" minlength="6" maxlength="18" placeholder="Votre nom d'utilisateur" required>
                     <br>
-                    <label for="mdp">*Mot de passe</label>
+                    <label class="labelform" for="mdp">*Mot de passe</label>
                     <br>
-                    <label for="login">Doit être composé de minimum 6 caractères, 2 caractères spéciaux, une majuscule et un burger king</label>
+                    <label class="labelform2" for="login">Doit être composé de minimum 6 caractères, 2 caractères spéciaux, une majuscule et un burger king</label>
                     <br>
                     <input type="password" name="mdp" id="mdp" placeholder="Votre mot de passe" required>
                     <br>
-                    <label for="mdp">*Confirmation du mot de passe</label>
+                    <label class="labelform" for="mdp">*Confirmation du mot de passe</label>
                     <br>
                     <input type="password" name="mdp" id="mdp" placeholder="Confirmation de votre mot de passe" required>
                     <br>
-                    <label for="prenom">Votre prénom</label>
+                    <label class="labelform" for="prenom">Votre prénom</label>
                     <br>
                     <input type="text" name="prenom" id="prenom" placeholder="Votre prénom">
                     <br>
-                    <label for="nom">Votre nom</label>
+                    <label class="labelform" for="nom">Votre nom</label>
                     <br>
                     <input type="text" name="nom" id="nom" placeholder="Votre nom">
                     <br>
-                    <div>
-                    <label for="homme">Homme</label>
+                    <div class="genre">
+                    <label class="labelform" for="homme">Homme</label>
                     <input type="radio" name="homme" id="homme" required>
-                    <label for="femme">Femme</label>
+                    <label class="labelform" for="femme">Femme</label>
                     <input type="radio" name="homme" id="femme" required>
                     </div>
                     <br>
-                    <label for="mail">*Votre adresse mail</label>
+                    <label class="labelform" for="mail">*Votre adresse mail</label>
                     <br>
                     <input type="email" name="email" id="email" placeholder="example@example.fr" required>
                     <br>
-                    <label for="anniversaire">Date de naissance</label>
+                    <label class="labelform" for="anniversaire">Votre date de naissance</label>
                     <br>
                     <input type="date" name="anniversaire" id="anniversaire">
                     <br>
-                    <label for="telephone">Votre numéro de téléphone</label>
+                    <label class="labelform" for="telephone">Votre numéro de téléphone</label>
                     <br>
                     <input type="tel" name="tel" id="tel" placeholder="06xxxxxxxx" pattern="06[0-9]{8}" maxlength="10" minlength="10">
                     <br>
@@ -85,7 +91,7 @@
                         </select>
                         <br>
                         <div>
-                                <label for="msg">Quelques mots sur vous..</label>
+                                <label class="labelform" for="msg">Quelques mots sur vous..</label>
                                 <textarea id="msg" name="user_message" placeholder="Votre cristal préféré, la princesse que vous rêvez de devenir.."></textarea>
                             </div>
                             
@@ -93,6 +99,8 @@
                     </form>
                     <a href="connexion.html" target="_blank"><input type="submit" value="Envoyer" id="bouton_contact" ></a>
                 </div>
+                <br>
+                <br>
                 <footer>
                         <img class="imgfoot1"src='Images/cluster2.gif'/>
                         <span class="textfoot">
