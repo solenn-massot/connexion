@@ -80,6 +80,7 @@ header{
 #loginc, #mdpc, .forco{
     font-family: 'geosanslightregular';
     font-size:20px;
+    color:rgb(69, 36, 100);
 }
 .forco{
     text-align:left;
