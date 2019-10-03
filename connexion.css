@@ -138,3 +138,48 @@ footer{
     margin-left:1100px;
     padding-bottom:40px;
 }
+.mdp{
+    background-color:rgba(69, 36, 100, 0.452);
+    width: 50%;
+    margin:0 auto;
+    font-family: 'geosanslightregular';
+    color:white;
+    text-align: center;
+
+}
+.mdp2{
+    font-size:25px;
+    font-weight: bold;
+}
+.mdp3{
+    font-size:20px;
+    font-style: italic;
+}
+.mdpperdu{
+    background-color:rgba(255, 255, 255, 0.568);
+    width: 50%;
+    margin:0 auto;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: rgb(69, 36, 100);
+    font-family:'geosanslightregular';
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+#infomdp{
+    font-size:25px;
+}
+#email{
+    margin-top:15px;
+}
+#bouton_contact{
+    margin-top:15px;
+    margin-bottom: 15px;
+}
+#linkmdp2{
+    margin-top:15px;
+}
+#linkmdp1{
+    margin-bottom:15px;
+}
