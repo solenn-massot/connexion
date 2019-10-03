@@ -1,48 +1,58 @@
 <html>
     <head>
-
+            <link rel="stylesheet" href="connexion.css">
     </head>
     <body>
         <header>
-            <h1>
+            <h1 class="titre-header">
                 Jm les cristo
             </h1>
-            <span>
+            <span class="soustitre-header">
                 Jm les cristo
             </span>
-            <span>
-                La référence en matière de cailloux et autre minéraux super intéressant !
+            <br>
+            <span class="soustitre-header2">
+                La référence en matière de cailloux et autre minéraux super intéressants !
             </span>
             <br>
             <br>
             <br>
         </header>
-          <div>
-              <span>
+        <br>
+        <br>
+          <div class="bienvenue">
+              <span class="bienvenue-texte">
                   Bienvenue sur jmlescristo.fr !
               </span>
-              <span>Pour continuer sur notre site, veuillez vous connecter.</span>
+              <br>
+              <span class="bienvenue-texte">
+                  Pour continuer sur notre site, veuillez vous connecter.
+                </span>
           </div>
-          <div>
-                <img src="Images/saphir.gif"/>
+          <br>
+          <br>
+          <div class="connexion">
+                <img class="sco" src="Images/saphir.gif"/>
                 <br>
-                <label for="login">Nom d'utilisateur</label>
-                <input type="text" name="login" id="login" minlength="6" maxlength="18" placeholder="*Votre nom d'utilisateur" required>
+                <label class="forco" for="loginc">Nom d'utilisateur :</label>
+                <input type="text" name="login" id="loginc" minlength="6" maxlength="18" placeholder="Votre nom d'utilisateur" required>
                 <br>
-                <label for="mdp">Mot de passe</label>
-                <input type="password" name="mdp" id="mdp" placeholder="*Votre mot de passe" required>
+                <label class="forco" for="mdpc">Mot de passe :</label>
+                <input type="password" name="mdp" id="mdpc" placeholder="Votre mot de passe" required>
                 <br>
                 <input type="submit" value="Envoyer" id="envoyer">
                 <br>
-                <a href="inscription.html" target="_blank">Inscrivez vous</a> 
-                <a href="motdepasse.html" target="_blank">Mot de passe oublié ?</a>
+                <a class="bienvenue-lien" href="inscription.html" target="_blank">Inscrivez vous</a> 
+                <a class="bienvenue-lien2" href="motdepasse.html" target="_blank">Mot de passe oublié ?</a>
           </div>
+          <br>
+          <br>
           <footer>
-              <img src='Images/cluster2.gif'/>
-              <span>
+              <img class="imgfoot1"src='Images/cluster2.gif'/>
+              <span class="textfoot">
                     Jmlescristo, le site indispensable pour échanger autour de vos cailloux préférés !
               </span>
-              <img src='Images/cluster1.gif'/>
+              <img class="imgfoot2" src='Images/cluster1.gif'/>
           </footer>
     </body>
 </html>
