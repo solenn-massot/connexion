@@ -52,12 +52,15 @@ header{
     background-color:rgba(69, 36, 100, 0.452);
     width: 50%;
     margin:0 auto;
+    padding-top:15px;
+    padding-bottom: 15px;
+    border-radius:5px;
 }
 .bienvenue-texte{
     display: block;
     text-align: center;
     font-family: 'geosanslightregular';
-    font-size:20px;
+    font-size:30px;
     color:white;
 }
 .connexion{
@@ -94,13 +97,14 @@ header{
     font-size:20px;
     display: block;
     margin-left:338px;
+    color: rgb(69, 36, 100);
 }
 .bienvenue-lien{
     font-family: 'geosanslightregular';
     font-size:20px;
     display: flex;
     margin-left:30px;
-    width:120px;
+    width:150px;
 }
 .bienvenue-lien2{
     font-family: 'geosanslightregular';
@@ -115,6 +119,8 @@ header{
 footer{
     background-color:rgba(52, 25, 94, 0.473);
     height: 160px;
+    opacity:0.25;
+    border-radius: 5px;
 }
 .imgfoot1{
     width:58px;
@@ -145,10 +151,14 @@ footer{
     font-family: 'geosanslightregular';
     color:white;
     text-align: center;
+    border-radius: 5px;
+    padding-top:15px;
+    padding-bottom: 15px;
 
 }
 .mdp2{
-    font-size:25px;
+    display: block;
+    font-size:30px;
     font-weight: bold;
 }
 .mdp3{
@@ -169,13 +179,21 @@ footer{
 }
 #infomdp{
     font-size:25px;
-}
-#email{
-    margin-top:15px;
-}
-#bouton_contact{
-    margin-top:15px;
+    display: block;
+    color: rgb(69, 36, 100);
     margin-bottom: 15px;
+}
+#emailmdp{
+    display: block;
+    margin:auto;
+    margin-bottom:10px;
+}
+#bouton_mdp{
+    margin-top:15px;
+    margin-bottom: 25px;
+    font-family:'geosanslightregular';
+    font-size:18px;
+    color: rgb(69, 36, 100);
 }
 #linkmdp2{
     margin-top:15px;
@@ -193,6 +211,7 @@ footer{
     font-family: 'geosanslightregular';
     padding-top:15px;
     padding-bottom: 15px;
+    border-radius: 5px;
 }
 .formulaire{
     background-color:rgba(255, 255, 255, 0.568);
@@ -257,7 +276,7 @@ footer{
     width:300px;
     height:50px;
 }
-#bouton_contact{
+#bouton_inscription{
     font-family: 'geosanslightregular'; 
     color: rgb(69, 36, 100);
     font-size:25px;
@@ -265,4 +284,39 @@ footer{
 }
 #email{
     margin-top:0px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    font-size:25px;
+    text-decoration:underline;
+    color: #96278A;
+}
+header:hover{
+    opacity: 0.25;
+    transition: opacity 1s ease-out;
+}
+footer:hover{
+    opacity: 1.0;
+    transition: opacity 1s ease-out;
+}
+.sco:hover{
+    animation: rotate 0.5s ;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes rotate {
+    0% { transform: rotate(0deg); }
+    10% { transform: rotate(50deg); }
+    20% { transform: rotate(70deg); }
+    30% { transform: rotate(90deg); }
+    40% { transform: rotate(130deg); }
+    50% { transform: rotate(150deg); }
+    60% { transform: rotate(180deg); }
+    70% { transform: rotate(190deg); }
+    80% { transform: rotate(200deg); }
+    90% { transform: rotate(250deg); }
+    100% { transform: rotate(270deg); }
+  }
 }
